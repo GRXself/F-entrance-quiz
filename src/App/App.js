@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import StudentList from './Component/StudentList';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
             <div>具体分组</div>
           </div>
           <div>
-            <p>学员列表</p>
+            <StudentList />
           </div>
         </div>
       </div>
