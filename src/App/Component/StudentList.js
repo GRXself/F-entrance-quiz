@@ -10,6 +10,7 @@ class StudentList extends Component {
   }
 
   componentDidMount() {
+    // TODO GTB-知识点: + 获取数据逻辑正确
     StudentApi.getAll().then((data) => {
       this.setState({ studentList: data });
     });

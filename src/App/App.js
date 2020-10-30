@@ -5,6 +5,7 @@ import StudentList from './Component/StudentList';
 class App extends Component {
   render() {
     return (
+      // TODO GTB-知识点: - html 标签使用不合理，不够语义化
       <div data-testid="app" className="App">
         <div>
           <div>
@@ -22,3 +23,4 @@ class App extends Component {
 }
 
 export default App;
+// TODO GTB-综合: * 完成度太低
